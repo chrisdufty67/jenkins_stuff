@@ -5,4 +5,4 @@ do
 count=`expr $count + 1`
 print "The count is $count"
 done
-print "job Finished" 
+echo "job Finished" 
