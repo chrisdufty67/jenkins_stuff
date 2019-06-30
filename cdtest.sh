@@ -3,6 +3,6 @@ count=0
 while [ $count -ne 20 ]
 do
 count=`expr $count + 1`
-echo "The count is $count" >> /tmp/jenkins_run
+echo "The count is $count"
 done
-echo "job Finished" > /tmp/jenkins_run
+echo "job Finished" 
