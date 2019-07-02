@@ -1,6 +1,6 @@
 #!/bin/bash
 count=0
-while [ $count -ne 5000 ]
+while [ $count -ne 6000 ]
 do
 count=`expr $count + 1`
 echo "The count is $count"
